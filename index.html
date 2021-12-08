@@ -25,6 +25,7 @@
 </head>
 
 <body>
+  <div class="body">
   <div class="wrapper">
     <input type="checkbox" id="btn" hidden>
     <label for="btn" class="menu-btn">
@@ -251,6 +252,9 @@
         </div>
     </div>
 </div>
+
+
+</div>
     
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
@@ -260,6 +264,12 @@
     <script>
         new WOW().init();
         </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(window).on('unload', function() {
+   $(window).scrollTop(0);
+});
+    </script>
   </body>
 
 </html>
