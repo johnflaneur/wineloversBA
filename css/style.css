@@ -8,7 +8,7 @@
   }
    /* FONTS Y BACKGROUND INICIAL */
   body{
-    background-image: url('/imagenes/banner-inicio.jpeg');
+    background-image: url('../imagenes/banner-inicio.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
     
