@@ -5,12 +5,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Maven Pro', sans-serif;
+    
   }
    /* FONTS Y BACKGROUND INICIAL */
+  html{
+    overflow-x:hidden;
+  }
   body{
     background-image: url('../imagenes/banner-inicio.jpeg');
     background-size: 100%;
     background-repeat: no-repeat;
+   
   }
   /* INICIO NAVBAR - WINELOVERS  */
   a:hover{
@@ -21,7 +26,7 @@
     height: 100%;
     width: 300px;
     position:fixed;
-    overflow: hidden;
+    display: block;
   }
   .wrapper .menu-btn{
     position: absolute;
@@ -65,7 +70,6 @@
     background: #6f1817;
     height: 100%;
     width: 300px;
-    overflow: hidden;
     left: -300px;
     transition: all 0.3s ease;
   }
@@ -151,8 +155,8 @@
     margin-left: 700px;
     width: 300px;
     height: 250px;
-    overflow: hidden;
     transition: all 0.6s ease;
+    display: fixed;
   }
 
   .logoW:hover{
@@ -171,7 +175,6 @@
     font-size: 30px;
     padding: 50px;
     text-shadow: 2px 2px 2px #0000 solid;
-    overflow: hidden;
         transition: all 0.9s ease;
   }
   .banner-frase:hover{
@@ -185,28 +188,25 @@ h1 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 900;
     font-size: 2.875rem;
-    overflow: hidden;
+
 }
 /* Título 2 (Propuestas y Nosotros) */
 h2 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 900;
     font-size: 2.313rem;
-    overflow: hidden;
 }
 /* -Texto 1 (descripciones) */
 h3 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
-    overflow: hidden;
 }
 /* -Texto Botón (Enviar en Contacto) */
 h4 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
-    overflow: hidden;
 }
 
 /* -Texto Interno Campos del Formulario (Labels) */
@@ -214,14 +214,12 @@ h5 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
-    overflow: hidden;
 }
 
 /* Clase Carrusel Bodegas */
 #bodegas, #empresas{
     margin-top: 300px;
     margin-bottom: 300px;
-    overflow: hidden;
 }
 
 .bodegas {
@@ -229,22 +227,19 @@ h5 {
     margin-bottom: 150px; */
     position: relative;
     z-index: -99;
-    overflow: hidden;
 }
 
 .empresas{
     position: relative;
     z-index: -999;
-    overflow: hidden;
 }
 /* Clase Video */ 
     .video {
-        margin-top: 150px;
-        margin-bottom: 150px;
+
+        margin-bottom: 250px;
         position:relative;
         z-index: -99;
         border-radius: 6px;
-        overflow: hidden;
     }
 
 
@@ -258,17 +253,14 @@ h5 {
         transition: all 0.9s ease;
         position: relative;
       z-index: -99;
-      overflow: hidden;
 }
 
 .grid1 img {
     border-radius: 6%;
     transition: all 0.9s ease;
-    overflow: hidden;
-
 }
 .grid1 img:hover{
-  transform: scale(110%);
+  transform: scale(120%);
   transition: all 0.8s ease;
 }
 
@@ -292,8 +284,6 @@ h5 {
     margin: 150px 10px 150px 10px;
     position: relative;
     z-index: -99;
-    overflow: hidden;
-
 }
 
 .grid2 img {
@@ -327,7 +317,6 @@ h5 {
 .nosotros{
   position: relative;
     z-index: -99;
-    overflow: hidden;
 }
 .nos img {
     z-index: -99;
@@ -351,7 +340,6 @@ h5 {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 600px;
-    overflow: hidden !important;
 }
 
 .contact__title{

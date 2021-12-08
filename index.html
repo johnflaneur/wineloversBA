@@ -25,7 +25,6 @@
 </head>
 
 <body>
-  <div class="body">
   <div class="wrapper">
     <input type="checkbox" id="btn" hidden>
     <label for="btn" class="menu-btn">
@@ -36,25 +35,22 @@
       <div class="wine-title">Wine Lovers</div>
       <br><br>
       <ul class="list-items">
-        <li><a class="nav-list" href="#inicio">Inicio</a></li>
+        <li><a class="nav-list" name="ancla" href="#inicio ">Inicio</a></li>
         <li><a class="nav-list" href="#bodegas">Bodegas</a></li>
         <li><a class="nav-list" href="#propuestas">Propuestas</a></li>
-        <li><a class="nav-list"href="#empresas">Empresas</a></li>
-        <li><a class="nav-list"href="#eventos">Eventos</a></li>
-        <li><a class="nav-list"href="#nosotros">Nosotros</a></li>
-        <li><a class="nav-list"href="#contacto">Contacto</a></li>
-        <div class="icons">
-         
-        </div>
+        <li><a class="nav-list" href="#empresas">Empresas</a></li>
+        <li><a class="nav-list" href="#eventos">Eventos</a></li>
+        <li><a class="nav-list" href="#nosotros">Nosotros</a></li>
+        <li><a class="nav-list" href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   
   </div>
-</div>
+
 
 <main>
   
-  <img class="logoW" id="inicio" src="imagenes/winelovers-blanco.svg" alt="logo wine lovers">
+  <img class="logoW" id="inicio" src="imagenes/winelovers-blanco.svg#ancla" alt="logo wine lovers">
   <span class="banner-frase"><p>¡Vive la experiencia <br>de disfrutar lo que te gusta <br>a tu manera!</p> </span>
 
 </main>
@@ -218,7 +214,7 @@
 <!-- Fin Bloque Nosotros -->
 
 <div id='contacto' class="contactBg container-fluid">  
-  <form id="contact" class="contact_bg" action="" method="post">
+  <form action="enviar.php" id="contact" class="contact_bg" action="" method="post">
     <br><br><br><br>
     <div>
     <h3 class="contact__title">Contacto</h3><br>
@@ -227,13 +223,13 @@
       </div>
       <br>
     <fieldset>
-      <input placeholder="Nombre y Apellido" type="text" tabindex="1" required autofocus>
+      <input placeholder="Nombre y Apellido" name="name" id="name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="E-mail" type="email" tabindex="2" required>
+      <input placeholder="E-mail" name="email" id="email" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Escribí acá tu mensaje" tabindex="5" required></textarea>
+      <textarea placeholder="Escribí acá tu mensaje" name="message" id="message" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">¡Enviar!</button>
@@ -264,12 +260,8 @@
     <script>
         new WOW().init();
         </script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-    $(window).on('unload', function() {
-   $(window).scrollTop(0);
-});
-    </script>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+   </body>
 
 </html>
