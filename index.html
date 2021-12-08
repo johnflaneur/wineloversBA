@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fuente Maven Pro font-family: 'Maven Pro', sans-serif; -->
+    <!-- 400 Regular | 500 Medium | 700 Bold | 900 Black-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script history.scrollRestoration = "manual"></script>
+    <title>Wine Lovers</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <input type="checkbox" id="btn" hidden>
+    <label for="btn" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </label>
+    <nav id="sidebar">
+      <div class="wine-title">Wine Lovers</div>
+      <br><br>
+      <ul class="list-items">
+        <li><a class="nav-list" href="#inicio">Inicio</a></li>
+        <li><a class="nav-list" href="#bodegas">Bodegas</a></li>
+        <li><a class="nav-list" href="#propuestas">Propuestas</a></li>
+        <li><a class="nav-list"href="#empresas">Empresas</a></li>
+        <li><a class="nav-list"href="#eventos">Eventos</a></li>
+        <li><a class="nav-list"href="#nosotros">Nosotros</a></li>
+        <li><a class="nav-list"href="#contacto">Contacto</a></li>
+        <div class="icons">
+         
+        </div>
+      </ul>
+    </nav>
+  
+  </div>
+</div>
+
+<main>
+  
+  <img class="logoW" id="inicio" src="imagenes/winelovers-blanco.svg" alt="logo wine lovers">
+  <span class="banner-frase"><p>¡Vive la experiencia <br>de disfrutar lo que te gusta <br>a tu manera!</p> </span>
+
+</main>
+   <div>
+    <a href="https://www.facebook.com/winelovers.ba" class="boton__fb"><i class="fab fa-facebook-f boton__fb--logo"></i></a>
+    <a href="https://www.instagram.com/wineloversba/" class="boton__ig"><i class="fab fa-instagram boton__ig--logo"></i></a>
+    <a href="#" class="boton__mail"><i class="far fa-envelope boton__mail--logo"></i></a>
+
+  
+   </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!-- Inicio Carrusel Bodegas -->
+
+<section id='bodegas' class="bodegas container-fluid ">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide wow animate__animated animate__bounceInLeft animate__delay-0.8s" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-bodegas/slide-bodegas-8.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon color:#6f1817" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- Fin Carrusel Bodegas -->
+
+<!-- Inicio Video -->
+
+
+
+<section class="video container">
+    <div class="ratio ratio-16x9">
+      <video autoplay="autoplay" loop="loop"  playsinline  oncontextmenu="return false;"  preload="auto">
+        <source src="imagenes/media/wl.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta HTML5 video.
+    </video> 
+    </div>
+</section>
+<!-- <iframe src="imagenes/media/wl.mp4" frameborder="0" allowfullscreen loop></iframe> -->
+<!-- Fin Video -->
+
+<!-- Inicio Galería Propuestas -->
+
+<section id="propuestas" class="container">
+    <div class="grid1 wow animate__animated animate__bounceInLeft animate__delay-0.8s">
+        <div class="span-col-2 span-row-6"> 
+            <p><h2>Nuestras Propuestas</h2></p>
+            <p><h3>Abarcan todo lo que esté en tu imaginación...
+                <br>
+                <br> Catas, enventos privados y corporativos,
+                <br> eventos de recaudación y beneficiencia,
+                <br> degustaciones y expo de vinos.
+                <br>
+                <br> ¿Se te ocurre algo más?...
+            </h3></p>
+            <p><h4>¡Lo hacemos posible!</h4></p>
+        </div>
+        <div class="span-row-4"><img src="imagenes/prop-foto1.jpg" alt=""></div>
+        <div class="span-row-4"><img src="imagenes/prop-foto2.jpg" alt=""></div>
+        <div class="span-col-2 span-row-6"><img src="imagenes/prop-foto3.jpg" alt=""></div>
+        <div class="span-row-4"><img src="imagenes/prop-foto4.jpg" alt=""></div>
+        <div class="span-row-3"><img src="imagenes/prop-foto5.jpg" alt=""></div>
+        <div class="span-col-2 span-row-6"><img src="imagenes/prop-foto7.jpg" alt=""></div>
+        <div class="span-row-3"><img src="imagenes/prop-foto6.jpg" alt=""></div>
+    </div>
+</section>
+
+<!-- Fin Galería Propuestas -->
+
+<!-- Inicio Carrusel Empresas -->
+
+<section  id='empresas' class="empresas container-fluid">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide wow animate__animated animate__bounceInLeft animate__delay-0.8s" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="imagenes/slide-empresas/slide-empresas-1.svg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="imagenes/slide-empresas/slide-empresas-2.svg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon color:#6f1817" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- Fin Carrusel Empresas -->
+
+<!-- Inicio Galería Eventos -->
+
+<section class="container">
+<div id='eventos' class="grid2 wow animate__animated animate__bounceInLeft animate__delay-0.8s">
+    <div class="span-col-2 span-row-4"><img src="imagenes/event-foto1.jpg" alt=""></div>
+    <div class="span-row-2"><img src="imagenes/event-foto2.jpg" alt=""></div>
+    <div class="span-row-2"><img src="imagenes/event-foto3.jpg" alt=""></div>
+    <div class="span-row-2"><img src="imagenes/event-foto4.jpg" alt=""></div>
+    <div class="span-col-2 span-row-4"><img src="imagenes/event-foto7.jpg" alt=""></div>
+    <div class="span-row-2"><img src="imagenes/event-foto5.jpg" alt=""></div>
+    <div class="span-col-3 span-row-10"><img src="imagenes/event-foto8.jpg" alt=""></div>
+</div>    
+</section>
+
+<!-- Fin Galería Eventos -->
+
+<!-- Inicio Bloque Nosotros -->
+
+<div class="container nosotros wow animate__animated animate__bounceInLeft animate__delay-0.8s">
+    <section id='nosotros' class="nos">
+        <div class="row gx-5">
+            <div class="col-8">
+                <p><h2>Acerca de Nosotros</h2>
+                <br></p>
+                <p><h3>
+                    Comenzamos en Enero 2020, previa pandemia con la primera Expo WineLoversBA, luego en Febrero del mismo año, llevamos a cabo una experiencia única en La Casa del Habano. Generando un maridaje perfecto para paladares exigentes.
+                    <br>
+                    <br>
+                    Este año, retomamos actividades, entre catas, eventos privados y la segunda Expo WineLoversBA en Torrepueblo, con una afluencia de más de 400 personas.
+                <br>
+                <br>
+            </h3></p>
+                <p><h4>¡Vamos por más!</h4></p></div>
+            <div class="col-4"><img src="imagenes/nosotros.jpg" alt=""></div>
+    </section>
+</div>
+<!-- Fin Bloque Nosotros -->
+
+<div id='contacto' class="contactBg container-fluid">  
+  <form id="contact" class="contact_bg" action="" method="post">
+    <br><br><br><br>
+    <div>
+    <h3 class="contact__title">Contacto</h3><br>
+    <h4>Para comunicarte con nosotros, <br>
+        podés completar acá tu mensaje</h4>
+      </div>
+      <br>
+    <fieldset>
+      <input placeholder="Nombre y Apellido" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="E-mail" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Escribí acá tu mensaje" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">¡Enviar!</button>
+    </fieldset>
+  </form>
+
+   
+
+</div>
+  <div class="container-fluid copyright">
+    <div class="row pt-2">
+        <div class="col-12">
+          <p>Buenos Aires, Argentina</p>
+            <p class="text-left text-dark">
+                Copyright &copy; 2021 Wine Lovers </p>
+        </div>
+    </div>
+</div>
+    
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/064ce44270.js" crossorigin="anonymous"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+  </body>
+
+</html>
